@@ -1,0 +1,46 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    font-size: 4rem;
+    background-color: aqua;
+    padding: 0 2rem;
+}
+
+i{
+    width: auto;
+    height: 100%;
+    padding: 20px 50px;
+    border-radius: 20%;
+}
+
+i:hover{
+    background-color: yellow;
+    color: green;
+    transition: 0.5s;
+}
+
+.logo, .nav-links, .user{
+    height: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+section{
+    width: calc(100% / 2);
+    height: 100%;
+}
+
+.text{
+    background-color: grey;
+    width: 100%;
+}
+
+.img{
+    background-color: indianred;
+    width: 100%;
+}
